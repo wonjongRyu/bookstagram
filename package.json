@@ -1,0 +1,27 @@
+{
+  "name": "bookstagram",
+  "version": "1.0.0",
+  "description": "Instagram Cloning on Book Domain",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wonjongRyu/bookstagram.git"
+  },
+  "author": "Wonjong Ryu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wonjongRyu/bookstagram/issues"
+  },
+  "homepage": "https://github.com/wonjongRyu/bookstagram#readme",
+  "dependencies": {
+    "babel-node": "0.0.1-security",
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^1.19.3"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  }
+}
