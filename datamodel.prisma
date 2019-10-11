@@ -5,13 +5,13 @@ type User {
   firstName: String @default(value: "")
   lastName: String
   bio: String
+  loginSecret: String
   following: [User!]! @relation(name: "FollowRelation")
   followers: [User!]! @relation(name: "FollowRelation")
   posts: [Post!]!
   likes: [Like!]!
   comments: [Comment!]!
   rooms: [Room!]!
-  loginSecret: String!
 }
 
 type Post {
