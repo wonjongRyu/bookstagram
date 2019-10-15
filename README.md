@@ -15,7 +15,8 @@ Instagram Clone on Book Domain
 - [x] Unfollow User
 - [x] Edit my profile
 - [x] See user profile
-- [ ] See the full photo
+- [x] See MY profile
+- [x] See the full photo
 - [ ] Upload a photo
 - [ ] Edit the photo (Delete)
 - [ ] See the feed
